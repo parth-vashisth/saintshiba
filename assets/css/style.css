@@ -65,6 +65,10 @@
     gap: 32px;
 }
 
+.pt-300 {
+    padding-top: 300px;
+}
+
 .nav-btn {
     width: 188px;
     height: 46px;
@@ -152,4 +156,38 @@
     line-height: 32.4px;
     text-align: left;
     color: var(--color-white);
+}
+
+.head-main {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-8xl);
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.head-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: #B6B5B5;
+    margin-top: 24px;
+}
+
+.learn-btn {
+    width: 150px;
+    height: 46px;
+    border-radius: 23.5px;
+    border: none;
+    background: var(--color-gradient-orange);
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    line-height: 32.4px;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 60px;
 }
