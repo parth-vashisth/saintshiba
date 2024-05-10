@@ -28,6 +28,8 @@
     --color-grey: #1D1A1A;
     --color-black: #0C0B0B;
     --color-nav: #000000BF;
+    --color-roundbox: #151313;
+    --color-light-grey: #B6B5B5;
     --color-gradient-grey: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
 }
 
@@ -173,7 +175,7 @@
     font-weight: 400;
     line-height: 32.4px;
     text-align: left;
-    color: #B6B5B5;
+    color: var(--color-light-grey);
     margin-top: 24px;
 }
 
@@ -190,4 +192,89 @@
     text-align: center;
     color: var(--color-white);
     margin-top: 60px;
+}
+
+.bgclr3 {
+    background-color: var(--color-grey);
+}
+
+.buy {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-8xl);
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.sec3-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: var(--color-light-grey);
+}
+
+.round-box {
+    width: 100%;
+    border-radius: 46px;
+    background-color: var(--color-roundbox);
+    padding: 10px;
+    margin-top: 24px;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.circle {
+    width: 71px;
+    height: 71px;
+    border-radius: 50px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-3xl);
+    font-weight: 600;
+    line-height: 33px;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.box-head {
+    font-family: " Poppins", sans-serif;
+    font-size: var(--fs-3xl);
+    color: var(--color-white);
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+}
+
+.box-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-xl);
+    color: var(--color-light-grey);
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+.right {
+    right: 0%;
+}
+
+.round-box:hover {
+    background-color: var(--color-black);
+}
+
+.round-box:hover .circle {
+    background: var(--color-gradient-orange);
+    color: var(--color-white);
 }
