@@ -626,6 +626,36 @@
 }
 
 .postn2 {
-    bottom: -12%;
-    left: 58%;
+    bottom: -15%;
+    left: 54%;
+}
+
+.postn3 {
+    top: 4%;
+    right: 0%;
+}
+
+.postn4 {
+    top: 50%;
+    left: -13%;
+}
+
+.place1 {
+    right: 0%;
+    top: -20%;
+}
+
+.place2 {
+    right: 0%;
+    top: -3%;
+}
+
+.place3 {
+    left: 0%;
+    top: 40%;
+}
+
+.corner1 {
+    bottom: 0%;
+    right: 0%;
 }
