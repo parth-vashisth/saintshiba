@@ -582,6 +582,18 @@
     /* height: 477px; */
 }
 
+.nav-btn:hover {
+    background: var(--color-white);
+    color: var(--color-orange-2);
+    border: 1px solid #F06500;
+}
+
+.learn-btn {
+    background: var(--color-white);
+    color: var(--color-orange-2);
+    border: 1px solid #F06500;
+}
+
 .dsply {
     display: none;
 }
